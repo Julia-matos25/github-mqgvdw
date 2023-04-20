@@ -1,0 +1,14 @@
+#meuBotao {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+
+#meuBotao:disabled {
+  background-color: green;
+  color: white;
+  cursor: default;
+}
